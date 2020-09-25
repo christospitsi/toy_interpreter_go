@@ -7,11 +7,7 @@
 * while
 
 ## Punctuation and operators
-(	+	=	<  
-)	-	==	>  
-{	*	!=	<=  
-}	/	&&	>=  
-,	%	||  
+(	+	=	< )	-	==	>   {	*	!=	<= } / && >= ,	%	||  
 
 ## Other lexical rules
 * Each number consists of one or more digits, and denotes a non-negative integer.
