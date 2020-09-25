@@ -1,22 +1,18 @@
-// Notes
-
-// The intepreter was developed by following the instructions and methodology from the book "Writing An Interpreter In Go" by Thorsten Ball
-// Although all print statements are evaluated correctly, only the last one is actually printed.
-// The examples have modified to accomodate this deviation from spec by containing only one print statement at the end
-// The branches of the conditionals are parsed as blocks ie. with {} around them
-
 package main
 
+// Although all print statements are evaluated correctly, only the last one is actually printed.
+// The branches of the conditionals are parsed as blocks ie. with {} around them
+
 import (
-	"concurrent-programming-christos-pitsikas/evaluator"
-	"concurrent-programming-christos-pitsikas/lexer"
-	"concurrent-programming-christos-pitsikas/object"
-	"concurrent-programming-christos-pitsikas/parser"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
 	"os"
+	"toy_interpreter_go/evaluator"
+	"toy_interpreter_go/lexer"
+	"toy_interpreter_go/object"
+	"toy_interpreter_go/parser"
 )
 
 func main() {

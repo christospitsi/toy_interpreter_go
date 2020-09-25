@@ -1,8 +1,8 @@
 package evaluator
 
 import (
-	"concurrent-programming-christos-pitsikas/object"
-	"concurrent-programming-christos-pitsikas/tree"
+	"toy_interpreter_go/object"
+	"toy_interpreter_go/tree"
 	"fmt"
 )
 

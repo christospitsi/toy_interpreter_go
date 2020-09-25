@@ -2,7 +2,7 @@ package tree
 
 import (
 	"bytes"
-	"concurrent-programming-christos-pitsikas/lexer"
+	"toy_interpreter_go/lexer"
 )
 
 // TreeNode : node interface

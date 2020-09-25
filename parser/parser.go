@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"concurrent-programming-christos-pitsikas/lexer"
-	"concurrent-programming-christos-pitsikas/tree"
+	"toy_interpreter_go/lexer"
+	"toy_interpreter_go/tree"
 	"strconv"
 )
 
