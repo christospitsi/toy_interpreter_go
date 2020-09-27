@@ -1,8 +1,5 @@
 package main
 
-// Although all print statements are evaluated correctly, only the last one is actually printed.
-// The branches of the conditionals are parsed as blocks ie. with {} around them
-
 import (
 	"fmt"
 	"io"
